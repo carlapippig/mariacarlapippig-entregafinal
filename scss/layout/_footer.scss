@@ -1,0 +1,94 @@
+.footer {
+
+    background-color: #f6f0c4;
+    background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 20%;
+
+}
+.primera{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap:30px;
+   
+    .compra{
+        color:$maincolor;
+        font-family:$font-principal;
+        margin-top: 5px;
+        margin-left:40px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        }
+    .mercadopago{
+        margin-top: 2%;
+    }
+}
+.medio{
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
+
+
+}
+    
+    .itemmedio{
+        color:$maincolor;
+        font-family:$font-principal, cursive;
+        line-height: 40px;
+        margin-top: 30%;
+        
+
+        
+}
+
+.tercero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    .instapic{
+        margin-top: 20%;;
+    }
+    
+
+    
+
+    .insta{
+        color:$maincolor;
+        font-family:$font-principal;
+    
+
+    }
+    .seguinos{
+        color:$maincolor;
+        font-family:$font-principal;
+    
+
+    }
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    filter: opacity(0.8);
+    
+}
+
+.copyright {
+    
+        
+    font-family:$font-principal;
+    color:$maincolor;
+    display:flex;
+    padding: 5px;
+    background-color: #d99ec9;
+        }

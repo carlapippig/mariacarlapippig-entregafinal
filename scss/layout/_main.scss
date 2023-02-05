@@ -1,0 +1,325 @@
+main{
+    
+    background-color: rgb(211, 190, 226);
+
+
+
+// -Banner
+.banner{
+    position: relative;
+
+}
+
+.banner .bannerimg img{
+    display: block; 
+
+
+}
+
+.textobanner  {
+    text-align: center; 
+    font-family:$font-principal;
+    font-size:30px;
+    color:khaki;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.358);
+    position: absolute;
+    top:40%;
+    left:20%;
+    text-decoration: none;
+    }
+
+    .boton{
+    width: 100%;
+    padding:5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:$font-principal;
+    color:$maincolor;
+    background-color: rgba(94, 74, 206, 0.322);
+    padding: 15px;
+    
+    
+
+    }
+
+}
+
+
+
+// Tienda
+
+.buscar{
+    position:absolute;   
+    padding: 10px;
+
+    .buscar imput{
+        width: 240px;
+        height: 40px;
+        padding: 0 20px;
+        font-size: 15px;
+        color:$maincolor;
+        outline: none;
+        border-radius: 30px;
+        }
+}
+
+    
+    
+.sectiontienda{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    .sectioncards{
+        display:flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        gap:70px;
+        align-items: center;
+        padding:20px 0px;
+    }
+    
+    .card img{
+        
+        display: block;
+        max-width: 100%;
+        height: 200px;
+
+}
+    .card:hover {
+        cursor: pointer;
+        opacity:0.7;
+        transform: scale(1.05);
+        transform: rotate(-1.2deg) scale(1.05);
+        transition: 0.6s ease-out;
+        filter:grayscale (1)
+    
+    }
+    
+    .titulo{
+        
+        text-align: center;
+        font-family:$font-principal;
+        color:$maincolor;
+        font-size:x-small;
+    }
+    
+    .precio{
+        text-align: center;
+        font-family:$font-principal;
+        color:$maincolor;
+        font-size:x-small;
+    }
+    
+    .comprar {
+        margin:35%;
+        font-family:$font-principal;
+        color:$maincolor;
+        font-size:small;
+    }
+    
+    
+    
+}
+
+//contacto
+
+.contactanos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+
+    .formulario{
+    width: 400px;
+    background-color:beige;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    .contenedor{  
+        padding: 10px;
+    }
+    
+
+    .legend{
+    font-size: 30px;
+    font-family:$font-principal;
+    color:$maincolor;
+    text-align: center;
+    margin:0;
+    margin-bottom: 10px;
+    
+}
+
+    .input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(144, 131, 218, 0.486);
+    border:none;
+}
+    .textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(144, 131, 218, 0.486);
+    border:none;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+    .inputboton{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:$font-principal;
+    color:$maincolor;
+    background-color: rgba(85, 76, 138, 0.411);
+    border:none;
+    padding: 15px;
+
+}
+
+    .inputboton:hover{
+    background-color: rgb(130, 117, 212);
+}
+    
+    .span{
+    font-size: 15px;
+    font-family:$font-principal;
+    color:$maincolor;
+}
+}
+}
+
+//como comprar
+
+
+
+.como-comprar {
+    font-size:$font-principal ;
+    color:$maincolor;
+    text-align: start;
+    margin-left: 10%;
+}
+.comoComprar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding: 20px;
+
+
+}
+.comprar-texto{
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    padding: 20px;
+    margin:0 20px 20px 20px ;
+    background-color: #d8dede;
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+    box-sizing: border-box;
+    font-family:$font-principal;
+    color:$maincolor;
+    text-align: center;
+    line-height: 55px;
+
+    .imgcomprar img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:end;
+        margin: 20px;
+    }
+}
+    .info-extra{
+
+    background-color: #d8dede;
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+    .extra-texto{
+        font-family:$font-principal;
+        color:$maincolor;
+    }   
+
+
+    }
+
+
+
+
+
+
+//Us /nosotrxs
+
+
+
+
+.us{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.cajaus{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: auto;
+    background-color: #d8dede;
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+    box-sizing: border-box;
+
+.nosotrxs{
+    font-family:$font-principal, cursive;
+    font-size: 40px;
+    color:$maincolor;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.33);
+    padding: 10px;
+}   
+.us-p{
+    
+    font-family:$font-principal, cursive;
+    font-size: 20px;
+    color:$maincolor;
+    line-height: 40px;
+    text-align: center;
+
+
+}
+
+}
+.imagenus img{
+    padding: 10%;
+    display:flex;
+    flex-wrap: wrap;
+  
+
+    
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 30px;
+    .encontranos{
+        font-size: small;
+        font-family:$font-principal;
+        color:$maincolor;
+        margin:10px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+}

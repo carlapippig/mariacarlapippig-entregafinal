@@ -1,0 +1,38 @@
+@media (max-width:768px){
+.logo{
+    font-size: medium;
+}
+.menu{
+    font-size:10px;
+    gap:5px;
+
+}
+.cajaus{
+    margin-top: 10px;
+}
+}
+@media (max-width:480px){
+.logo{
+    display: none;
+}
+.navBar{
+    flex-direction: column;
+    align-content: center;
+}
+.menu{
+    font-size: 20px;
+    padding: 10px;
+}
+.texto{
+    font-size: 20px;
+    top:20%;
+    left:20%;
+
+}
+.cajaus{
+margin-top: 10px;
+}
+.copyright{
+    font-size: x-small;
+}
+}
